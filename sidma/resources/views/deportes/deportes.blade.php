@@ -28,21 +28,13 @@
                     <br />
 
                  
-					{!!Form::open(['Route' => '', 'Method' => 'POST', 'Class' => 'form-horizontal form-label-left'])!!}
-					        @include('atletas.form.fatletas')
-					<div class="ln_solid"></div>
-					<div class="form-group">
-					<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3"><center>
-            {!!Form::submit('Registrar',['class'=>'btn btn-primary'])!!}
-          {!!Form::submit('Registrar',['class'=>'btn btn-danger'])!!}
-          {!!Form::submit('Registrar',['class'=>'btn btn-success'])!!}
-					</center>
-					</div>
-					</div>
-					{!!Form::close()!!}
+				
+					       @include('deportes.form.fdeportes')
+
 
 
 			 </div>
+
                 </div>
               </div>
             </div>

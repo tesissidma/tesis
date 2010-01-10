@@ -32,3 +32,11 @@ Route::get('/evaluacionentrenadores', function(){
 	return view('entrenadores.EvaluacionEntrenadores');
 
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
+
+Route::get('/deportes', function () {
+    return view('deportes.deportes');
+});
