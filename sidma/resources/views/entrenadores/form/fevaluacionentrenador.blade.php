@@ -1,6 +1,8 @@
                     <!-- Tabs -->
-              <div id="wizard_verticle" class="form_wizard wizard_verticle">
-                      <ul class="list-unstyled wizard_steps">
+                    
+<div id="wizard" class="form_wizard wizard_horizontal">
+
+          <ul class="wizard_steps">
                         <li>
                           <a href="#step-11">
                             <span class="step_no">1</span>
@@ -884,7 +886,8 @@
                         
                       </div>
 
-                      <div id="step-1111">
+
+                <div id="step-1111">
                         <h2 class="StepTitle">NIVEL 3. AMBITO VIVENCIAL</h2>
                         
                         <span class="section"><H5>Item 11. Reconocimientos</H5></span>
@@ -960,7 +963,8 @@
                         
                       </div>
 
-                      <div id="step-1212">
+
+                <div id="step-1212">
                         <h2 class="StepTitle">NIVEL 3. AMBITO VIVENCIAL</h2>
                         
                         <span class="section"><H5>Item 12. Experiencia como Directivo</H5></span>
@@ -1033,6 +1037,8 @@
                         
 
               </div>
-               
+                      
 
-            </div>
+                      
+
+</div>
