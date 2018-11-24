@@ -40,3 +40,13 @@ Route::get('/login', function () {
 Route::get('/deportes', function () {
     return view('deportes.deportes');
 });
+
+
+Route::get('/controldealbergues', function () {
+    return view('tutorias.controldealbergues');
+});
+
+Route::get('/visitaestablecimientose', function () {
+    return view('tutorias.visitaestablecimientose');
+});
+
