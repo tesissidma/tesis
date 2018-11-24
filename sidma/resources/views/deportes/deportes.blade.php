@@ -27,12 +27,12 @@
                   <div class="x_content">
                     <br />
  
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
+              
+              <button type="button" class="btn btn-lg btn-primary fa fa-plus-circle "  data-toggle="modal" data-target="#exampleModal"> Nuevo</button>
 
- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
-                
 				        @include('deportes.form.modal')
-					     
+					     <br>
+               <br>
 <table class="table table-striped">
                       <thead>
                         <tr>
@@ -45,21 +45,21 @@
                       <tbody>
                         <tr>
                           <th scope="row">1</th>
-                          <td>Mark</td>
+                          <td>Judo</td>
                           <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
                           
                         </tr>
                         <tr>
                           <th scope="row">2</th>
-                          <td>Jacob</td>
+                          <td>Box</td>
                           <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
                          
                         </tr>
                         <tr>
                           <th scope="row">3</th>
-                          <td>Larry</td>
+                          <td>Lucha</td>
                           <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
                           
