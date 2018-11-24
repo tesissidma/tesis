@@ -1,5 +1,4 @@
-@extends('layout.layout')
-@section('content')
+<?php $__env->startSection('content'); ?>
 <div class="right_col" role="main">
 	<div class="clearfix"></div>
             <div class="row">
@@ -30,7 +29,7 @@
               
               <button type="button" class="btn btn-lg btn-primary fa fa-plus-circle "  data-toggle="modal" data-target="#exampleModal"> Nuevo</button>
 
-				        @include('deportes.form.modal')
+				        <?php echo $__env->make('deportes.form.modal', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 					     <br>
                <br>
 <table class="table table-striped">
@@ -76,4 +75,5 @@
             </div>
 </div>		
                  
-@endsection               
+<?php $__env->stopSection(); ?>               
+<?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>

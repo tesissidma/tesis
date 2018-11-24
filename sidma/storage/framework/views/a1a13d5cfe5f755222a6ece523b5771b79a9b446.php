@@ -10,12 +10,17 @@
       </div>
       <div class="modal-body">
         <br>
-          @include('deportes.form.fdeportes')
+          <?php echo $__env->make('deportes.form.fdeportes', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
           <br>
           <br>
       </div>
       <div class="modal-footer">
-        
+        <div class="form-group">
+                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                         <center> <button type="button" class="btn btn-primary">Close</button>
+               
+                          <button type="submit" class="btn btn-success">Submit</button></center>
+                        </div>
       </div>
     </div>
   </div>
