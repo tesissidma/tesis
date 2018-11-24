@@ -50,3 +50,10 @@ Route::get('/visitaestablecimientose', function () {
     return view('tutorias.visitaestablecimientose');
 });
 
+Route::get('/evaluacionfuerzatecnica', function(){
+	return view('metodologo.EvaluacionesFuerzaTecnica');
+});
+
+Route::get('/horariosentrenamiento', function(){
+	return view('metodologo.HorariosEntrenamiento');
+});
