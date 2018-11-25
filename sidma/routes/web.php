@@ -50,3 +50,38 @@ Route::get('/visitaestablecimientose', function () {
     return view('tutorias.visitaestablecimientose');
 });
 
+
+Route::get('/bajas', function () {
+    return view('atletas.bajas');
+});
+
+Route::get('/tiposdedeportes', function () {
+    return view('deportes.tiposdedeportes');
+});
+
+
+Route::get('/categorias', function () {
+    return view('deportes.categorias');
+});
+
+Route::get('/pruebas', function () {
+    return view('deportes.pruebas');
+});
+
+
+=======
+Route::get('/evaluacionfuerzatecnica', function(){
+	return view('metodologo.EvaluacionesFuerzaTecnica');
+});
+
+Route::get('/horariosentrenamiento', function(){
+	return view('metodologo.HorariosEntrenamientos');
+});
+
+Route::get('/reportecaraterizacionfuerzatecnica', function(){
+	return view('metodologo.ReporteCaracterizacionFuerzaTecnica');
+});
+
+
+
+?>
