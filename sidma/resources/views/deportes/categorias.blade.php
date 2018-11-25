@@ -1,11 +1,12 @@
-<?php $__env->startSection('content'); ?>
+@extends('layout.layout')
+@section('content')
 <div class="right_col" role="main">
 	<div class="clearfix"></div>
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Form Design</h2>
+                    <h2>Categorias de deporte</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -27,11 +28,13 @@
                     <br />
  
               
-              <button type="button" class="btn btn-lg btn-primary fa fa-plus-circle "  data-toggle="modal" data-target="#exampleModal"> Nuevo</button>
+              
 
-				        <?php echo $__env->make('deportes.form.modal', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				        @include('deportes.form.mcategorias')
 					     <br>
                <br>
+
+               
 <table class="table table-striped">
                       <thead>
                         <tr>
@@ -75,5 +78,4 @@
             </div>
 </div>		
                  
-<?php $__env->stopSection(); ?>               
-<?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+@endsection               

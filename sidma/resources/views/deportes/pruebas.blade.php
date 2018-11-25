@@ -1,11 +1,12 @@
-<?php $__env->startSection('content'); ?>
+@extends('layout.layout')
+@section('content')
 <div class="right_col" role="main">
 	<div class="clearfix"></div>
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Visitas a los establecimientos educativos</h2>
+                    <h2>Pruebas</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -27,18 +28,18 @@
                     <br />
  
               
+              
 
-
-				        <?php echo $__env->make('tutorias.form.mvisitasdecontrol', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				        @include('deportes.form.mpruebas')
 					     <br>
                <br>
 
+               
 <table class="table table-striped">
                       <thead>
                         <tr>
                           <th>#</th>
-                          <th>EStablecimiento</th>
-                          <th>Fecha</th>
+                          <th>Deporte</th>
                           <th>Accion</th>
                          
                         </tr>
@@ -46,28 +47,22 @@
                       <tbody>
                         <tr>
                           <th scope="row">1</th>
-                          <td>Manabi Tecnologico</td>
-                          <td>Manabi Tecnologico</td>
-                          <td><button type="button" class="btn btn-xs btn-success  "  data-toggle="modal" data-target="#exampleModal">Ver</button>
-                            <button type="button" class="btn btn-xs btn-primary  "  data-toggle="modal" data-target="#exampleModal">Editar</button>
+                          <td>Judo</td>
+                          <td><button type="button" class="btn btn-xs btn-primary  "  data-toggle="modal" data-target="#exampleModal">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
                           
                         </tr>
                         <tr>
                           <th scope="row">2</th>
-                          <td>Olmedo</td>
-                          <td>Manabi Tecnologico</td>
-                          <td><button type="button" class="btn btn-xs btn-success  "  data-toggle="modal" data-target="#exampleModal">Ver</button>
-                            <button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
+                          <td>Box</td>
+                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
                          
                         </tr>
                         <tr>
                           <th scope="row">3</th>
-                          <td>Gran Colombia</td>
-                          <td>Manabi Tecnologico</td>
-                          <td><button type="button" class="btn btn-xs btn-success  "  data-toggle="modal" data-target="#exampleModal">Ver</button>
-                            <button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
+                          <td>Lucha</td>
+                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
                           
                         </tr>
@@ -83,5 +78,4 @@
             </div>
 </div>		
                  
-<?php $__env->stopSection(); ?>               
-<?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+@endsection               

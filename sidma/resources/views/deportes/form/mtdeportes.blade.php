@@ -10,11 +10,11 @@
       <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <h3 class="modal-title" id="exampleModalLongTitle">Registrar nueva visita al albergue</h3>
+        <h3 class="modal-title" id="exampleModalLongTitle">Registrar nuevo tipo de deporte</h3>
       </div>
       <div class="modal-body">
         <div class="container-fluid">
-           <?php echo $__env->make('tutorias.form.fvisitasdecontrol', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+          @include('deportes.form.ftdeportes')
                   </div>
 
         </div>
@@ -23,3 +23,7 @@
     </div>
   </div>
 </div>
+
+
+
+

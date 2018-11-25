@@ -76,7 +76,7 @@
                       
 <br>
 <br>
-                    
+ <div class="ln_solid"></div>                   
 <div class="form-group">
                         
                          <center> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

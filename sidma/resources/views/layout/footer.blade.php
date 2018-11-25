@@ -1,6 +1,6 @@
 <footer>
           <div class="pull-right">
-            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            Sidma - Derechos reservados <a href="https://fedemanabi.com">FEDEMANABI</a>
           </div>
           <div class="clearfix"></div>
         </footer>

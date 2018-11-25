@@ -50,3 +50,22 @@ Route::get('/visitaestablecimientose', function () {
     return view('tutorias.visitaestablecimientose');
 });
 
+
+Route::get('/bajas', function () {
+    return view('atletas.bajas');
+});
+
+Route::get('/tiposdedeportes', function () {
+    return view('deportes.tiposdedeportes');
+});
+
+
+Route::get('/categorias', function () {
+    return view('deportes.categorias');
+});
+
+Route::get('/pruebas', function () {
+    return view('deportes.pruebas');
+});
+
+

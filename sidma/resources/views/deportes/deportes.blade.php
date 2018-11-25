@@ -28,11 +28,13 @@
                     <br />
  
               
-              <button type="button" class="btn btn-lg btn-primary fa fa-plus-circle "  data-toggle="modal" data-target="#exampleModal"> Nuevo</button>
+              
 
-				        @include('deportes.form.modal')
+				        @include('deportes.form.mdeportes')
 					     <br>
                <br>
+
+               
 <table class="table table-striped">
                       <thead>
                         <tr>
