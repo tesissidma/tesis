@@ -55,5 +55,9 @@ Route::get('/evaluacionfuerzatecnica', function(){
 });
 
 Route::get('/horariosentrenamiento', function(){
-	return view('metodologo.HorariosEntrenamiento');
+	return view('metodologo.HorariosEntrenamientos');
+});
+
+Route::get('/reportecaraterizacionfuerzatecnica', function(){
+	return view('metodologo.ReporteCaracterizacionFuerzaTecnica');
 });
