@@ -69,7 +69,7 @@ Route::get('/pruebas', function () {
 });
 
 
-=======
+
 Route::get('/evaluacionfuerzatecnica', function(){
 	return view('metodologo.EvaluacionesFuerzaTecnica');
 });
