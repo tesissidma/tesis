@@ -27,11 +27,13 @@
                     <br />
  
               
-              <button type="button" class="btn btn-lg btn-primary fa fa-plus-circle "  data-toggle="modal" data-target="#exampleModal"> Nuevo</button>
+              
 
-				        <?php echo $__env->make('deportes.form.modal', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+				        <?php echo $__env->make('deportes.form.mdeportes', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 					     <br>
                <br>
+
+               
 <table class="table table-striped">
                       <thead>
                         <tr>
@@ -45,7 +47,7 @@
                         <tr>
                           <th scope="row">1</th>
                           <td>Judo</td>
-                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
+                          <td><button type="button" class="btn btn-xs btn-primary  "  data-toggle="modal" data-target="#exampleModal">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
                           
                         </tr>
