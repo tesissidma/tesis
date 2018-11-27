@@ -11,29 +11,12 @@
                         </div>
 </div>
 
- <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">N° de Deportistas <span class="required">*</span>
-                        </label>
-                        <div class="col-md-9 col-sm-9 col-xs-12">
-                          <input class="date-picker form-control col-md-7 col-xs-12" required="required" type="text">
-                        </div>
-</div>
+
+
 
 
 <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Fecha <span class="required">*</span>
-                        </label>
-                        <div class="col-md-9 col-sm-9 col-xs-12">
-                          
-
-                                <input type="text" class="form-control has-feedback-left" id="single_cal3" placeholder="First Name" aria-describedby="inputSuccess2Status3">
-                                <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
-                                <span id="inputSuccess2Status3" class="sr-only">(success)</span>
-                            
-                        </div>
-</div>
-<div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Dificultades Detectadas <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Problemas Tecnicos Metodologicos <span class="required">*</span>
                         </label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
                           <textarea class="form-control" rows="3" placeholder=""></textarea>
@@ -41,7 +24,7 @@
 </div>
 
 <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Deportistas <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Problemas de Fuerza Tecnica <span class="required">*</span>
                         </label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
                           <textarea class="form-control" rows="3" placeholder=""></textarea>
@@ -49,7 +32,7 @@
 </div>
 
 <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Medidas Tomadas <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">problemas de Infraesrtuctura <span class="required">*</span>
                         </label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
                           <textarea class="form-control" rows="3" placeholder=""></textarea>
@@ -57,7 +40,7 @@
 </div>
 
 <div class="form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Ruta Critica <span class="required">*</span>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Problemas de Implementacion <span class="required">*</span>
                         </label>
                         <div class="col-md-9 col-sm-9 col-xs-12">
                           <textarea class="form-control" rows="3" placeholder=""></textarea>
@@ -73,10 +56,8 @@
 </div>
 
 
-                      
-<br>
-<br>
-                    
+          
+ <div class="ln_solid"></div>                   
 <div class="form-group">
                         
                          <center> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

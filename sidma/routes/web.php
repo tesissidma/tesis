@@ -83,5 +83,18 @@ Route::get('/reportecaraterizacionfuerzatecnica', function(){
 });
 
 
+Route::get('/matrizdeproblemas', function(){
+	return view('metodologo.matrizdeproblemas');
+});
+
+
+Route::get('/atletaspriorizados', function(){
+	return view('atletas.atletaspriorizados');
+});
+
+Route::get('/atletascicloolimpico', function(){
+	return view('atletas.atletascicloolimpico');
+});
+
 
 ?>

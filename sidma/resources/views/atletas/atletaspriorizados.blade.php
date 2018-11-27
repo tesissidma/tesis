@@ -1,11 +1,12 @@
-<?php $__env->startSection('content'); ?>
+@extends('layout.layout')
+@section('content')
 <div class="right_col" role="main">
 	<div class="clearfix"></div>
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Control de visitas a los albergues</h2>
+                    <h2>ATLETAS PRIORIZADOS</h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -25,19 +26,17 @@
                   </div>
                   <div class="x_content">
                     <br />
- 
-              
 
-
-				        <?php echo $__env->make('tutorias.form.mvisitasdecontrol', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
-					     <br>
-               <br>
-
-<table class="table table-striped">
+                 <table class="table table-striped">
                       <thead>
                         <tr>
                           <th>#</th>
+                          <th>Nombre</th>
                           <th>Deporte</th>
+                          <th>Prueba</th>
+                          <th>Resultado Actual</th>
+                          <th>Proyeccion</th>
+                          <th>nivel de prioridad</th>
                           <th>Accion</th>
                          
                         </tr>
@@ -45,7 +44,12 @@
                       <tbody>
                         <tr>
                           <th scope="row">1</th>
-                          <td>Judo</td>
+                          <td>ronny angel Cedeño solorzano</td>
+                          <td>Levantamiento de pesas</td>
+                          <td>portoviejo</td>
+                          <td>oro</td>
+                          <td>juegos Sudamericanos</td>
+                          <td>A</td>
                           <td><button type="button" class="btn btn-xs btn-success  "  data-toggle="modal" data-target="#exampleModal">Ver</button>
                             <button type="button" class="btn btn-xs btn-primary  "  data-toggle="modal" data-target="#exampleModal">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
@@ -53,7 +57,12 @@
                         </tr>
                         <tr>
                           <th scope="row">2</th>
-                          <td>Box</td>
+                          <td>Pedro</td>
+                         <td>Hombre</td>
+                          <td>portoviejo</td>
+                         <td>oro</td>
+                          <td>juegos Sudamericanos</td>
+                          <td>A</td>
                           <td><button type="button" class="btn btn-xs btn-success  "  data-toggle="modal" data-target="#exampleModal">Ver</button>
                             <button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
@@ -61,7 +70,12 @@
                         </tr>
                         <tr>
                           <th scope="row">3</th>
-                          <td>Lucha</td>
+                          <td>javier</td>
+                          <td>Hombre</td>
+                          <td>portoviejo</td>
+                          <td>oro</td>
+                           <td>juegos Sudamericanos</td>
+                          <td>A</td>
                           <td><button type="button" class="btn btn-xs btn-success  "  data-toggle="modal" data-target="#exampleModal">Ver</button>
                             <button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">Editar</button>
                             <button type="button" class="btn btn-xs btn-danger" data-toggle="modal" data-target=".bs-example-modal-lg">Eliminar</button></td>
@@ -69,15 +83,13 @@
                         </tr>
                       </tbody>
                     </table>
+				
 
 
-
-			         </div>
-
+			 </div>
                 </div>
               </div>
             </div>
 </div>		
                  
-<?php $__env->stopSection(); ?>               
-<?php echo $__env->make('layout.layout', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+@endsection               
