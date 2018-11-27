@@ -53,6 +53,13 @@
                       <li><a href="fixed_footer.html">Fixed Footer</a></li>
                     </ul>
                   </li>
+                  <li><a><i class="fa fa-clone"></i>Atletas <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="Bajas">Bajas</a></li>
+                      <li><a href="atletaspriorizados">Atletas Priorizados</a></li>
+                      <li><a href="atletascicloolimpico">Atletas Propuestos para Ciclo Olimpico</a></li>
+                    </ul>
+                  </li>
                 </ul>
               </div>
               <div class="menu_section">
