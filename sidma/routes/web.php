@@ -96,5 +96,9 @@ Route::get('/atletascicloolimpico', function(){
 	return view('atletas.atletascicloolimpico');
 });
 
+Route::get('/controlescompetenciastiemposmarcas', function(){		
+	return view('metodologo.ControlesCompetenciaTiemposMarcas');
+});
+
 
 ?>
