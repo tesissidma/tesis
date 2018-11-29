@@ -75,31 +75,7 @@
                       </tbody>
                     </table>
 
-
-<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <br>
-          
-         
-                 
-            
-          <br>
-          <br>
-      </div>
-      <div class="modal-footer"><center>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button></center>
-      </div>
-    </div>
-  </div>
-</div>
+@include('metodologo.form.modalbusquedaAtletas')
 
 @section('content2')
 <script>
@@ -107,7 +83,7 @@ $('#myDatepicker2').datetimepicker({
         format: 'DD/MM/YYYY'
     });
 
-$("#div").html('Ajedrez');
+$("#div").html(' Ajedrez');
 
 </script>
 @endsection

@@ -6,7 +6,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Controles de Competencias <div id="div"></div></h2>
+                    <h2>Controles de Competencias<div id="div"></div></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -92,7 +92,7 @@
                  <div class="x_content">
                   <div class="col-md-14 col-sm-12 col-xs-12 form-group">
                      <span>Objetivos:</span>
-                  <textarea class="form-control" rows="3" placeholder="rows=&quot;3&quot;"></textarea>
+                  <textarea class="form-control" rows="3" placeholder="Ingrese 3 Objetivos"></textarea>
                   </div>
                  </div>
 
@@ -109,13 +109,15 @@
                  <div class="x_content">
                   <div class="col-md-14 col-sm-12 col-xs-12 form-group">
                      <span>Observaciones:</span>
-                  <textarea class="form-control" rows="3" placeholder="rows=&quot;3&quot;"></textarea>
+                  <textarea class="form-control" rows="3" placeholder="Ingrese las Observaciones"></textarea>
                   </div>
                  </div>
 
                 </div>
               </div>
             </div>
+
+
 </div>		
     
 @endsection               

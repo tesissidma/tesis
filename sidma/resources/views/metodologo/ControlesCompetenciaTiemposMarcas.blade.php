@@ -104,7 +104,7 @@ $('#myDatepicker2').datetimepicker({
         format: 'DD/MM/YYYY'
     });
 
-$("#div").html('Tiempos Y Marcas');
+$("#div").html(' Tiempos Y Marcas');
 
 </script>
 @endsection

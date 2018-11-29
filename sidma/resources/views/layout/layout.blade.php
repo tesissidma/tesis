@@ -23,9 +23,7 @@
             @include('layout.menu')
             <!-- /sidebar menu -->
 
-            <!-- /menu footer buttons -->
-            @include('layout.configuracionmenu')
-            <!-- /menu footer buttons -->
+            
           </div>
         </div>
         
