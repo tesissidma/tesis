@@ -129,9 +129,7 @@
                             <option value="mouth">Word of mouth</option>
                           </select>
                   </div>
-                  </div>
-                  
-                  <div class="x_content">
+
                   <div class="col-md-6 col-sm-12 col-xs-12 form-group">
                   <lavel>Hasta:</lavel> 
                   <select id="heard" class="form-control" required="">
