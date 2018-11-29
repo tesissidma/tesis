@@ -9,32 +9,34 @@
                           <th ROWSPAN="2" style="text-align: center; vertical-align:middle;">Prueba</th>
                           <th COLSPAN="4" style="text-align: center; vertical-align:middle;">Eval. de la Prep.</th>
                           <th ROWSPAN="2" style="text-align: center; vertical-align:middle;">Lugar Prop</th>
-                          <th COLSPAN="5" style="text-align: center; vertical-align:middle;">Resultados</th>
+                          <th COLSPAN="6" style="text-align: center; vertical-align:middle;">Resultados</th>
                           <th COLSPAN="1" style="text-align: center; vertical-align:middle;">Resultados Finales</th>
                           <th ROWSPAN="2" style="text-align: center; vertical-align:middle;">Acción</th>
                           
                         </tr>
                         <tr>
                           
+                          <th style="text-align: center; vertical-align:middle;">P.A</th>
+
+                          <th style="text-align: center; vertical-align:middle;">P.MJ</th>
+
                           <th style="text-align: center; vertical-align:middle;">P.F</th>
-
-                          <th style="text-align: center; vertical-align:middle;">P.T.T</th>
-
-                          <th style="text-align: center; vertical-align:middle;">P.Ps</th>
 
                           <th style="text-align: center; vertical-align:middle;">DISC</th> 
 
-                          <th style="text-align: center; vertical-align:middle;">M. Contr</th>
+                          <th style="text-align: center; vertical-align:middle;">P.P</th>
 
-                          <th style="text-align: center; vertical-align:middle;">M. Com. Ant.</th>
+                          <th style="text-align: center; vertical-align:middle;">P.E</th>
 
-                          <th style="text-align: center; vertical-align:middle;">M. Ofic.</th>
+                          <th style="text-align: center; vertical-align:middle;">P.G</th>
 
                           <th style="text-align: center; vertical-align:middle;">% EFCT.</th>
 
-                          <th style="text-align: center; vertical-align:middle;">Lugar Alca</th>
+                          <th style="text-align: center; vertical-align:middle;">PTOS. FAV.</th>
 
-                          <th style="text-align: center; vertical-align:middle;">Ubic.</th>
+                          <th style="text-align: center; vertical-align:middle;">PTOS. CONT.</th>
+
+                          <th style="text-align: center; vertical-align:middle;">Ubicación.</th>
 
 
                         </tr>
@@ -58,6 +60,7 @@
 				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half" contenteditable="true"></td>
 				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half" contenteditable="true"></td>
 				          <td style="text-align: center; vertical-align:middle;"class="pt-3-half" contenteditable="true"></td>
+                  <td style="text-align: center; vertical-align:middle;"class="pt-3-half" contenteditable="true"></td>
 				          <td style="text-align: center; vertical-align:middle;" ><select id="heard" class="form-control" required="">
                             <option value="">Choose..</option>
                             <option value="press">1</option>
@@ -104,7 +107,7 @@ $('#myDatepicker2').datetimepicker({
         format: 'DD/MM/YYYY'
     });
 
-$("#div").html('Tiempos Y Marcas');
+$("#div").html('Ajedrez');
 
 </script>
 @endsection

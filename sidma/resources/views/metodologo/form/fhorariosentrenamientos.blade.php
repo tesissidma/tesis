@@ -28,7 +28,7 @@
                           <td>Deporte 2</td>
                           <td>50</td>
                           <td>senior</td>
-                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#exampleModal">Asignar Lugar de Trabajo</button></td>
+                          <td><button type="button" class="btn btn-primary btn-rounded btn-sm my-0" data-toggle="modal" data-target="#exampleModal">Asignar Lugar de Trabajo</button></td>
                          
                         </tr>
                         

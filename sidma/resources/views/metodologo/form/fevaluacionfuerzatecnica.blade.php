@@ -14,7 +14,7 @@
                           <td>1</td>
                           <td>Fulano de tal</td>
                           <td>Deporte 1</td>
-                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#exampleModal">Realizar Evaluación</button></td>
+                          <td><button type="button" class="btn btn-primary btn-rounded btn-sm my-0" data-toggle="modal" data-target="#exampleModal">Realizar Evaluación</button></td>
                           
                         </tr>
                         <tr>
@@ -22,7 +22,7 @@
                           <td>2</td>
                           <td>Fulano de tal 2</td>
                           <td>Deporte 2</td>
-                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#exampleModal">Realizar Evaluación</button></td>
+                          <td><button type="button" class="btn btn-primary btn-rounded btn-sm my-0" data-toggle="modal" data-target="#exampleModal">Realizar Evaluación</button></td>
                          
                         </tr>
                         

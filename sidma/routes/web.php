@@ -100,5 +100,20 @@ Route::get('/controlescompetenciastiemposmarcas', function(){
 	return view('metodologo.ControlesCompetenciaTiemposMarcas');
 });
 
+Route::get('/controlescompetenciasajedrez', function(){		
+	return view('metodologo.ControlesCompetenciaAjedrez');
+});
+
+Route::get('/controlescompetenciaslevpesas', function(){		
+	return view('metodologo.ControlesCompetenciaLevPesas');
+});
+
+Route::get('/controlescompetenciasdeportespelota', function(){		
+	return view('metodologo.ControlesCompetenciaDeportesPelota');
+});
+
+Route::get('/controlescompetenciasdeportescombate', function(){		
+	return view('metodologo.ControlesCompetenciaDeportesCombate');
+});
 
 ?>

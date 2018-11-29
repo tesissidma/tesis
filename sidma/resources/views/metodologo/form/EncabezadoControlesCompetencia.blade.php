@@ -6,7 +6,7 @@
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="x_panel">
                   <div class="x_title">
-                    <h2>Controles de Competencias</h2>
+                    <h2>Controles de Competencias <div id="div"></div></h2>
                     <ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
@@ -97,6 +97,10 @@
                  </div>
 
                  <div class="x_content">
+                  <button type="button" class="btn btn-primary btn-rounded btn-sm my-0" data-toggle="modal" data-target="#exampleModal">Agregar Atleta</button>
+                 </div>
+
+                 <div class="x_content">
 
                   @yield('contenido')
 
@@ -113,11 +117,5 @@
               </div>
             </div>
 </div>		
-@section('content2')
-<script>
-$('#myDatepicker2').datetimepicker({
-        format: 'DD/MM/YYYY'
-    });
-</script>
-@endsection           
+    
 @endsection               

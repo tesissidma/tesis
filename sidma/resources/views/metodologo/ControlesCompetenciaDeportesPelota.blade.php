@@ -6,10 +6,9 @@
                         <tr>
 						  <th ROWSPAN="2" style="text-align: center; vertical-align:middle;">N°</th>
                           <th ROWSPAN="2" style="text-align: center; vertical-align:middle;">Nombres y Apellidos</th>
-                          <th ROWSPAN="2" style="text-align: center; vertical-align:middle;">Prueba</th>
                           <th COLSPAN="4" style="text-align: center; vertical-align:middle;">Eval. de la Prep.</th>
                           <th ROWSPAN="2" style="text-align: center; vertical-align:middle;">Lugar Prop</th>
-                          <th COLSPAN="5" style="text-align: center; vertical-align:middle;">Resultados</th>
+                          <th COLSPAN="6" style="text-align: center; vertical-align:middle;">Resultados</th>
                           <th COLSPAN="1" style="text-align: center; vertical-align:middle;">Resultados Finales</th>
                           <th ROWSPAN="2" style="text-align: center; vertical-align:middle;">Acción</th>
                           
@@ -24,17 +23,19 @@
 
                           <th style="text-align: center; vertical-align:middle;">DISC</th> 
 
-                          <th style="text-align: center; vertical-align:middle;">M. Contr</th>
+                          <th style="text-align: center; vertical-align:middle;">P.G</th>
 
-                          <th style="text-align: center; vertical-align:middle;">M. Com. Ant.</th>
+                          <th style="text-align: center; vertical-align:middle;">P.E</th>
 
-                          <th style="text-align: center; vertical-align:middle;">M. Ofic.</th>
+                          <th style="text-align: center; vertical-align:middle;">P.P</th>
 
-                          <th style="text-align: center; vertical-align:middle;">% EFCT.</th>
+                          <th style="text-align: center; vertical-align:middle;">% EFECT.</th>
 
-                          <th style="text-align: center; vertical-align:middle;">Lugar Alca</th>
+                          <th style="text-align: center; vertical-align:middle;">PTOS FAV</th>
 
-                          <th style="text-align: center; vertical-align:middle;">Ubic.</th>
+                          <th style="text-align: center; vertical-align:middle;">PTOS CONT</th>
+
+                          <th style="text-align: center; vertical-align:middle;">Ubicación.</th>
 
 
                         </tr>
@@ -47,7 +48,6 @@
                        <tr>
                        	  <td style="text-align: center; vertical-align:middle;" class="pt-3-half">1</td>
 				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half">Guadalupe House Guadalupe House</td>
-				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half">nose</td>
 				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half" contenteditable="true"></td>
 				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half" contenteditable="true"></td>
 				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half" contenteditable="true"></td>
@@ -58,6 +58,7 @@
 				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half" contenteditable="true"></td>
 				          <td style="text-align: center; vertical-align:middle;" class="pt-3-half" contenteditable="true"></td>
 				          <td style="text-align: center; vertical-align:middle;"class="pt-3-half" contenteditable="true"></td>
+                  <td style="text-align: center; vertical-align:middle;"class="pt-3-half" contenteditable="true"></td>
 				          <td style="text-align: center; vertical-align:middle;" ><select id="heard" class="form-control" required="">
                             <option value="">Choose..</option>
                             <option value="press">1</option>
@@ -104,7 +105,7 @@ $('#myDatepicker2').datetimepicker({
         format: 'DD/MM/YYYY'
     });
 
-$("#div").html('Tiempos Y Marcas');
+$("#div").html('Deportes con Pelota');
 
 </script>
 @endsection
