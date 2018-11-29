@@ -113,6 +113,10 @@
                   </div>
                  </div>
 
+                 <div class="x_content">
+                  <center><button type="button" class="btn btn-success btn-rounded btn-sm my-0">Guardar</button></center>
+                 </div>
+
                 </div>
               </div>
             </div>

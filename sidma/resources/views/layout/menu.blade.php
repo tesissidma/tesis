@@ -2,21 +2,11 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="index.html">Dashboard</a></li>
-                      <li><a href="index2.html">Dashboard2</a></li>
-                      <li><a href="index3.html">Dashboard3</a></li>
-                    </ul>
-                  </li>
                   <li><a><i class="fa fa-user"></i> Usuarios <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">Usuarios</a></li>
-                      <li><a href="form_advanced.html">Roles</a></li>
-                      <li><a href="form_validation.html">Permisos</a></li>
-                      <li><a href="form_wizards.html">Form Wizard</a></li>
-                      <li><a href="form_upload.html">Form Upload</a></li>
-                      <li><a href="form_buttons.html">Form Buttons</a></li>
+                      <li><a href="#">Usuarios</a></li>
+                      <li><a href="#">Roles</a></li>
+                      <li><a href="#">Permisos</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-desktop"></i> Configuración <span class="fa fa-chevron-down"></span></a>
@@ -25,32 +15,29 @@
                       <li><a href="tiposdedeportes">Tipos de Deportes</a></li>
                       <li><a href="categorias">Categorias</a></li>
                       <li><a href="pruebas">Pruebas</a></li>
-                      <li><a href="glyphicons.html">Glyphicons</a></li>
-                      <li><a href="widgets.html">Widgets</a></li>
-                      <li><a href="invoice.html">Invoice</a></li>
-                      <li><a href="inbox.html">Inbox</a></li>
-                      <li><a href="calendar.html">Calendar</a></li>
                     </ul>
                   </li>
                   <li><a><i class="fa fa-user"></i> Metodologos <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="tables.html">Tables</a></li>
-                      <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                      <li><a href="controlescompetenciasajedrez">Controles Competencia Ajedrez</a></li>
+                      <li><a href="controlescompetenciasdeportespelota">Controles Competencia Deportes con Pelota</a></li>
+                      <li><a href="controlescompetenciaslevpesas">Controles Competencia Levantamiento de Pesas</a></li>
+                      <li><a href="controlescompetenciasdeportescombate">Controles Competencia Deportes de Combate</a></li>
+                      <li><a href="controlescompetenciastiemposmarcas">Controles Competencia Tiempos y Marcas</a></li>
+                      <li><a href="evaluacionfuerzatecnica">Evaluacion Fuerza Tecnica</a></li>
+                      <li><a href="horariosentrenamiento">Horarios Entrenamiento</a></li>
+                      <li><a href="matrizdeproblemas">Matriz de Problemas</a></li>
+                      <li><a href="reportecaraterizacionfuerzatecnica">Reporte Caracterizacion Fuerza Tecnica</a></li>
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-bar-chart-o"></i> tutorias <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-bar-chart-o"></i> Tutorias <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="chartjs.html">Chart JS</a></li>
-                      <li><a href="chartjs2.html">Chart JS2</a></li>
-                      <li><a href="morisjs.html">Moris JS</a></li>
-                      <li><a href="echarts.html">ECharts</a></li>
-                      <li><a href="other_charts.html">Other Charts</a></li>
+                     
                     </ul>
                   </li>
                   <li><a><i class="fa fa-user"></i>Entrenadores <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
-                      <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                      
                     </ul>
                   </li>
                   <li><a><i class="fa fa-user"></i>Atletas <span class="fa fa-chevron-down"></span></a>
