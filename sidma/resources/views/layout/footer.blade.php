@@ -1,6 +1,6 @@
 <footer>
           <div class="pull-right">
-            Sidma - Derechos reservados <a href="https://fedemanabi.com">FEDEMANABI</a>
+            Sidma - Derechos reservados <a href="https://fedemanabi.org.ec" target="_blank">FEDERACION DEPORTIVA DE MANABI</a>
           </div>
           <div class="clearfix"></div>
         </footer>

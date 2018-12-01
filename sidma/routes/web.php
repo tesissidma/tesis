@@ -96,15 +96,26 @@ Route::get('/atletascicloolimpico', function(){
 	return view('atletas.atletascicloolimpico');
 });
 
-
-Route::get('/asistencias', function(){
-	return view('atletas.asistencias');
+Route::get('/controlescompetenciastiemposmarcas', function(){		
+	return view('metodologo.ControlesCompetenciaTiemposMarcas');
 });
 
-Route::get('/planes', function(){
-	
-	return view('entrenadores.planes');
-	
+Route::get('/controlescompetenciasajedrez', function(){		
+	return view('metodologo.ControlesCompetenciaAjedrez');
 });
+
+Route::get('/controlescompetenciaslevpesas', function(){		
+	return view('metodologo.ControlesCompetenciaLevPesas');
+});
+
+Route::get('/controlescompetenciasdeportespelota', function(){		
+	return view('metodologo.ControlesCompetenciaDeportesPelota');
+});
+
+Route::get('/controlescompetenciasdeportescombate', function(){		
+	return view('metodologo.ControlesCompetenciaDeportesCombate');
+});
+
 
 ?>
+

@@ -28,7 +28,7 @@
                           <td>Deporte 2</td>
                           <td>50</td>
                           <td>senior</td>
-                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#exampleModal">Asignar Lugar de Trabajo</button></td>
+                          <td><button type="button" class="btn btn-primary btn-rounded btn-sm my-0" data-toggle="modal" data-target="#exampleModal">Asignar Lugar de Trabajo</button></td>
                          
                         </tr>
                         
@@ -61,6 +61,10 @@
                     <input type="text" placeholder="Entrenador" class="form-control" disabled>
                   </div>
 
+                  </div>
+
+                  <div class="x_content">
+
                   <div class="col-md-5 col-sm-12 col-xs-12 form-group">
                     <input type="text" placeholder="Deporte" class="form-control" disabled>
                   </div>
@@ -73,7 +77,11 @@
                     <input type="text" placeholder="No. Atletas" class="form-control" disabled>
                   </div>
 
-                  <div class="col-md-5 col-sm-12 col-xs-12 form-group" style="margin-left: 25%;">
+                  </div>
+
+                  <div class="x_content">
+
+                  <div class="col-md-5 col-sm-12 col-xs-12 form-group">
                     <input type="text" placeholder="Categoría del Deporte" class="form-control" disabled>
                   </div>
 
@@ -81,17 +89,18 @@
 
                   <div class="x_content">
                     <br />
-                  
+
                   
                   <div class="col-md-6 col-sm-12 col-xs-12 form-group">
-                  <lavel>Lugar de Trabajo:</lavel> 
+                  <span>Lugar de Trabajo:</span>
                   <select id="heard" class="form-control" required="">
                             <option value="">Choose..</option>
                             <option value="press">Press</option>
                             <option value="net">Internet</option>
                             <option value="mouth">Word of mouth</option>
                           </select>
-                  </div>                 
+                  </div>
+                                 
                   
                   </div>
 

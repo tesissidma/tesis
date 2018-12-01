@@ -14,7 +14,7 @@
                           <td>1</td>
                           <td>Fulano de tal</td>
                           <td>Deporte 1</td>
-                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#exampleModal">Realizar Evaluación</button></td>
+                          <td><button type="button" class="btn btn-primary btn-rounded btn-sm my-0" data-toggle="modal" data-target="#exampleModal">Realizar Evaluación</button></td>
                           
                         </tr>
                         <tr>
@@ -22,7 +22,7 @@
                           <td>2</td>
                           <td>Fulano de tal 2</td>
                           <td>Deporte 2</td>
-                          <td><button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#exampleModal">Realizar Evaluación</button></td>
+                          <td><button type="button" class="btn btn-primary btn-rounded btn-sm my-0" data-toggle="modal" data-target="#exampleModal">Realizar Evaluación</button></td>
                          
                         </tr>
                         
@@ -69,27 +69,40 @@
                   <div class="clearfix"></div>
                   </div>
                   
+                  <div class="x_content">
                   <div class="col-md-2 col-sm-12 col-xs-12 form-group">
                     <lavel>CP:</lavel> 
                     <input type="text" placeholder="" class="form-control">
                   </div>
-                  <div class="col-md-2 col-sm-12 col-xs-12 form-group" style="margin-left: 2%;">
+                  </div>
+                  
+                  <div class="x_content">
+                  <div class="col-md-2 col-sm-12 col-xs-12 form-group">
                     <lavel>R.D:</lavel> 
                     <input type="text" placeholder="" class="form-control">
                   </div>
-                  <div class="col-md-2 col-sm-12 col-xs-12 form-group" style="margin-left: 2%;">
+                  </div>
+                  
+                  <div class="x_content">
+                  <div class="col-md-2 col-sm-12 col-xs-12 form-group">
                     <lavel>ST:</lavel> 
                     <input type="text" placeholder="" class="form-control">
                   </div>
-                  <div class="col-md-2 col-sm-12 col-xs-12 form-group" style="margin-left: 2%;">
+                  </div>
+                  
+                  <div class="x_content">
+                  <div class="col-md-2 col-sm-12 col-xs-12 form-group">
                     <lavel>PD:</lavel> 
                     <input type="text" placeholder="" class="form-control">
                   </div>
-                  <div class="col-md-2 col-sm-12 col-xs-12 form-group" style="margin-left: 2%;">
+                  </div>
+                  
+                  <div class="x_content">
+                  <div class="col-md-2 col-sm-12 col-xs-12 form-group">
                     <lavel>CS:</lavel> 
                     <input type="text" placeholder="" class="form-control">
                   </div>
-                  
+                  </div>
 
 
                   
