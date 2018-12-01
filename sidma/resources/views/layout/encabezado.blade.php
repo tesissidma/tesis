@@ -22,7 +22,13 @@
     <link href="vendors/pnotify/dist/pnotify.css" rel="stylesheet">
     <link href="vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
     <link href="vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
-
+<link href="vendors/switchery/dist/switchery.min.css" rel="stylesheet">
     <!-- Custom Theme Style -->
     <link href="css/custom.min.css" rel="stylesheet">
+
+
+
+
+
+    
   </head>

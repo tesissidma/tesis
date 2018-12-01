@@ -35,4 +35,24 @@
     <script src="js/custom.min.js"></script>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
     @yield('content2')

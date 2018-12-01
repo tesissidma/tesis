@@ -97,4 +97,14 @@ Route::get('/atletascicloolimpico', function(){
 });
 
 
+Route::get('/asistencias', function(){
+	return view('atletas.asistencias');
+});
+
+Route::get('/planes', function(){
+	
+	return view('entrenadores.planes');
+	
+});
+
 ?>
